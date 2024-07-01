@@ -19,7 +19,7 @@ export const MobileNav = () => {
         <button onClick={handleNav}>
           <img
             src={`${nav ? "/close-nav.svg" : "/open-nav.svg"}`}
-            alt="navbar-bars"
+            alt="handle-nav"
             className="size-6"
           />
         </button>

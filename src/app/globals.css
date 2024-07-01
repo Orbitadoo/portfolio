@@ -4,7 +4,6 @@
 
 * {
     @apply text-secondary;
-    @apply overflow-x-hidden;
     @apply box-content;
     @apply scroll-smooth;
 }

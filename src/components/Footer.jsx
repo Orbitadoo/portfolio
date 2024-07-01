@@ -1,0 +1,73 @@
+import React from "react";
+import Link from "next/link";
+
+const Footer = () => {
+  return (
+    <footer className="my-12 grid gap-2">
+      <div className="flex flex-col justify-center sm:flex sm:flex-row sm:justify-between items-center gap-2">
+        <div className="flex flex-wrap gap-8">
+          <Link
+            href="/#home"
+            className="text-sm md:text-xl hover:text-primary font-bold text-base ease-in-out duration-300"
+          >
+            {" "}
+            Inicio{" "}
+          </Link>
+          <Link
+            href="/#projects"
+            className="text-sm md:text-xl hover:text-primary font-bold text-base ease-in-out duration-300"
+          >
+            {" "}
+            Proyectos{" "}
+          </Link>
+          <Link
+            href="/#about"
+            className="text-sm md:text-xl hover:text-primary font-bold text-base ease-in-out duration-300"
+          >
+            {" "}
+            Acerca de{" "}
+          </Link>
+        </div>
+
+        <div className="flex gap-6">
+          <Link
+            href="https://www.instagram.com/juanpabloovaldez/"
+            target="_blank"
+          >
+            <img src="/instagram.svg" alt="Instagram Logo" className="size-6" />
+          </Link>
+          <Link href="https://github.com/orbitadoo" target="_blank">
+            <img src="/github.svg" alt="GitHub Logo" className="size-6" />
+          </Link>
+          <Link
+            href="https://www.linkedin.com/in/leonardo-juan-pablo-valdez-16825a30b/"
+            target="_blank"
+          >
+            <img src="/linkedin.svg" alt="Linkedin Logo" className="size-6" />
+          </Link>
+        </div>
+      </div>
+
+      <div className="gap-2 flex flex-col justify-center sm:flex sm:flex-row sm:justify-between items-center">
+        <div className="flex flex-col gap-2 items-center sm:items-start">
+          <p className="text-md text-secondary font-bold">
+            ¿Quieres trabajar conmigo?
+          </p>
+          <Link
+            href="/contact"
+            className="w-fit rounded-full text-white font-bold bg-primary py-2 px-4 hover:bg-primary-white hover:text-white transition-all ease-in-out duration-300"
+          >
+            Contáctame
+          </Link>
+        </div>
+
+        <div>
+          <p className="text-sm">© 2024. Todos los derechos reservados.</p>
+          <p className="text-sm">Hecho por Leonardo Juan Pablo Valdez.</p>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
