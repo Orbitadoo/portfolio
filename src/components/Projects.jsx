@@ -1,9 +1,13 @@
 import React from "react";
 
-export const Projects = () => {
+const Projects = () => {
   return (
-    <section id="projects" className="h-screen">
-      <h1>Projects</h1>
+    <section id="projects" className="py-20 h-screen">
+      <h2 className="font-bold text-4xl md:text-6xl">
+        Proyectos<span className="text-primary">.</span>
+      </h2>
     </section>
   );
 };
+
+export default Projects;

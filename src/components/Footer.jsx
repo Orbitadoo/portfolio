@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="my-12 grid gap-2">
+    <footer className="my-12 grid gap-2 px-6">
       <div className="flex flex-col justify-center sm:flex sm:flex-row sm:justify-between items-center gap-2">
         <div className="flex flex-wrap gap-8">
           <Link
