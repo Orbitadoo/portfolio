@@ -8,8 +8,13 @@
     @apply scroll-smooth;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    @apply overflow-hidden;
+}
+
 p {
     @apply text-base;
+    @apply overflow-hidden;
 }
 
 @media screen and (max-width: 640px){
