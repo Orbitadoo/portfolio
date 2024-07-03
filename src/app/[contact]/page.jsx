@@ -3,7 +3,7 @@ import SocialMediaLink from "@/components/SocialMediaLink";
 
 const ContactPage = () => {
   return (
-    <section className="h-[660px] px-6 py-20 flex flex-row justify-center flex-wrap md:grid md:grid-cols-2 items-center align-middle">
+    <section className="h-[660px] px-6 lg:py-20 flex flex-row justify-center flex-wrap md:grid md:grid-cols-2 items-center align-middle">
       <div className="flex flex-row flex-wrap gap-4">
         <h2 className="text-4xl md:text-6xl py-2 font-extrabold">
           ¿Creamos algo juntos?<span className="text-primary">.</span>
