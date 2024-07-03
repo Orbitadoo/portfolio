@@ -1,5 +1,5 @@
-import React from "react";
 import Link from "next/link";
+import SocialMediaLink from "@/components/SocialMediaLink.jsx";
 
 const Footer = () => {
   return (
@@ -30,21 +30,25 @@ const Footer = () => {
         </div>
 
         <div className="flex gap-6">
-          <Link
-            href="https://www.instagram.com/juanpabloovaldez/"
-            target="_blank"
-          >
-            <img src="/instagram.svg" alt="Instagram Logo" className="size-6" />
-          </Link>
-          <Link href="https://github.com/orbitadoo" target="_blank">
-            <img src="/github.svg" alt="GitHub Logo" className="size-6" />
-          </Link>
-          <Link
-            href="https://www.linkedin.com/in/leonardo-juan-pablo-valdez-16825a30b/"
-            target="_blank"
-          >
-            <img src="/linkedin.svg" alt="Linkedin Logo" className="size-6" />
-          </Link>
+          <SocialMediaLink
+            link="https://www.instagram.com/juanpabloovaldez/"
+            src="/instagram.svg"
+            alt="Instagram Logo"
+            size="size-6"
+          />
+
+          <SocialMediaLink
+            link="https://github.com/orbitadoo"
+            src="/github.svg"
+            alt="GitHub Logo"
+            size="size-6"
+          />
+          <SocialMediaLink
+            link="ttps://www.linkedin.com/in/leonardo-juan-pablo-valdez-16825a30b/"
+            src="/linkedin.svg"
+            alt="Linkedin Logo"
+            size="size-6"
+          />
         </div>
       </div>
 

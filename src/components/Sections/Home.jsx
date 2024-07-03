@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="grid grid-row xl:grid-cols-2 py-20 content-center items-center"
+      className="grid grid-row xl:grid-cols-2 py-28 content-center items-center"
     >
       <div className="flex flex-col">
         <div className="flex flex-col gap-4">
