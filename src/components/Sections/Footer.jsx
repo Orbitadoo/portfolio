@@ -1,7 +1,10 @@
+"use client";
 import Link from "next/link";
 import SocialMediaLink from "@/components/SocialMediaLink.jsx";
+import { useParams } from "next/navigation";
 
 const Footer = () => {
+  const page = useParams().contact;
   return (
     <footer className="my-12 grid gap-2 px-6">
       <div className="flex flex-col justify-center sm:flex sm:flex-row sm:justify-between items-center gap-2">
@@ -58,7 +61,11 @@ const Footer = () => {
             ¿Quieres trabajar conmigo?
           </p>
           <Link
-            href="/contact"
+            href={
+              page === "contact"
+                ? `mailto:vleonardojuanpablo@icloud.com`
+                : `/contact`
+            }
             className="w-fit rounded-full text-white font-bold bg-primary py-2 px-4 hover:bg-primary-white hover:text-white transition-all ease-in-out duration-300"
           >
             Contáctame

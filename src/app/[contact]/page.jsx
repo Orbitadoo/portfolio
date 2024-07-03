@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import SocialMediaLink from "@/components/SocialMediaLink";
 
 const ContactPage = () => {

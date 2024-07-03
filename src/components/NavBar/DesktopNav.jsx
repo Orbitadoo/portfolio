@@ -9,7 +9,7 @@ export const DesktopNav = () => {
       </Link>
       <div className="flex gap-8">
         <Link
-          href="/#home"
+          href="/"
           className="hover:text-primary font-bold text-base ease-in-out duration-300"
         >
           Inicio
