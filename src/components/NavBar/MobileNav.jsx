@@ -29,7 +29,7 @@ export const MobileNav = () => {
         }`}
       >
         <Link
-          href="/"
+          href="/#home"
           className="text-xl hover:text-primary font-bold text-base ease-in-out duration-300"
         >
           Inicio

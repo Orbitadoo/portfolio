@@ -50,7 +50,7 @@ section {
     animation-timeline: --image;
     animation-name: show;
 
-    animation-range: entry 25% cover 30%;
+    animation-range: entry 15% cover 25%;
     animation-fill-mode: both;
 }
 
